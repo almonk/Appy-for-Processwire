@@ -140,12 +140,15 @@ a {
 				padding: 0px 10px;
 				text-shadow:0px 1px 0px rgba(0,0,0,0.6);
 			}
-
-			#topnav a:hover,
+			#topnav a:hover{
+				background-color: #3A4F56;
+			}
+			
 			#topnav a.on {
 				color: #fff; 
 				background-color: #1e2d32
 			}
+			
 
 
 
@@ -174,7 +177,7 @@ a {
 #secondary{
 	background-color: #E4EBEE;
 	height: 35px;
-	width: 100%;
+	right:0;
 	position: absolute;
 	top:51px;
 	left:0;
