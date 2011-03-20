@@ -17,6 +17,10 @@
  *
  */
 
+html{
+	overflow-y:scroll;
+}
+
 body {
 	background-color: #e4ebee; 
 	font: 10px/20px "Helvetica Neue", Arial, sans-serif; 
