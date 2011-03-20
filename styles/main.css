@@ -21,6 +21,7 @@ body {
 	background-color: #e4ebee; 
 	font: 10px/20px "Helvetica Neue", Arial, sans-serif; 
 	color: #2f4248; 
+	-webkit-font-smoothing: antialiased;
 }
 	body.modal {
 		background-color: #fff; 
@@ -84,7 +85,7 @@ a {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4E676E), color-stop(100%,#32464C)); /* webkit */
 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4E676E', endColorstr='#32464C',GradientType=0 ); /* ie */
-	height: 85px; 
+	height: 87px; 
 	font-size: 1.1em;
 	overflow: hidden;
 }
@@ -113,7 +114,7 @@ a {
 			padding: 0;
 			list-style: none;
             display: inline;
-			line-height: 1em; 
+			line-height: 1em;
 		}
 
 			a.nav,
@@ -152,10 +153,8 @@ a {
 		font-size: 28px; 	
 		font-family: Georgia, "Times New Roman", Times, serif; 
 		color: #003051;
-		margin-bottom:15px;
-		border-bottom: 1px dotted #EAEAEA;
-		padding-bottom: 25px;
-		margin-top: -6px;
+		margin-bottom:20px;
+		margin-top: 5px;
 	}
 
 	#ProcessPageSearchQuery {
@@ -180,6 +179,7 @@ a {
 	top:51px;
 	left:0;
 	display: block;
+	border-bottom: 1px solid #D1D8DA;
 }
 
 #breadcrumb {
