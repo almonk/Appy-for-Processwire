@@ -178,6 +178,14 @@ a {
 	font-size: 1.3em; 
 }
 
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+	border: 0!important;
+}
+
+.ui-state-highlight{
+	border-bottom: 1px solid #BCD764!important;
+}
+
 #secondary{
 	background-color: #E4EBEE;
 	height: 35px;
