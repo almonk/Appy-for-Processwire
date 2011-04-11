@@ -89,7 +89,7 @@ a {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4E676E), color-stop(100%,#32464C)); /* webkit */
 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4E676E', endColorstr='#32464C',GradientType=0 ); /* ie */
-	height: 87px; 
+	height: 77px; 
 	font-size: 1.1em;
 	overflow: hidden;
 }
@@ -138,12 +138,27 @@ a {
 				float: left; 
 				margin: 0 0 0 1px;
 				font-size: 13px;
-				height: 51px;
-				line-height: 48px;
+				height: 41px;
+				line-height: 38px;
 				text-transform: none;
 				padding: 0px 10px;
 				text-shadow:0px 1px 0px rgba(0,0,0,0.6);
+				background-position: 10px 12px;
+				background-repeat: no-repeat;
 			}
+			
+				/* Pages icon */
+			
+				#topnav li:nth-child(1) a{
+					background-image: url(images/pages-icon.png);
+					padding-left: 32px;
+				}
+			
+				#topnav li:nth-child(1) a.on{
+					background-image: url(images/pages-icon-sel.png);
+					padding-left: 32px;
+				}
+			
 			#topnav a:hover{
 				background-color: #3A4F56;
 			}
@@ -166,7 +181,7 @@ a {
 
 	#ProcessPageSearchQuery {
 		position: absolute; 
-		top: 15px;
+		top: 10px;
 		right: 0; 
 		width: 180px; 
 		padding: 2px 5px;
@@ -191,7 +206,7 @@ a {
 	height: 35px;
 	right:0;
 	position: absolute;
-	top:51px;
+	top:41px;
 	left:0;
 	display: block;
 	border-bottom: 1px solid #D1D8DA;
