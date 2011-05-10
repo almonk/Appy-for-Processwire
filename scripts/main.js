@@ -27,5 +27,7 @@ $(document).ready(function() {
 	if($.browser.msie && $.browser.version < 8) {
 		$("#content .container").html("<h2>ProcessWire does not support IE7 and below at this time. Please try again with a newer browser.</h2>").show();
 	}
+	
+	$('#ui-datepicker-div').removeClass('ui-helper-hidden-accessible');
 
 }); 

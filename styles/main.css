@@ -57,8 +57,9 @@ a {
 		
 }
 	a:hover {
-		color: #fff; 
-		background: #f10055;
+		color: #7a002b; 
+		cursor: pointer;
+		text-decoration: underline;
 	}
 
 	a.on {
@@ -129,7 +130,9 @@ a {
 			}
 				a.nav:hover,
 				.nav a:hover {
-					color: #fff; 
+					color: #7a002b; 
+					cursor: pointer;
+					text-decoration: underline;
 				}
 
 			#topnav a {
