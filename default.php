@@ -64,14 +64,7 @@ $config->scripts->append($config->urls->adminTemplates . "scripts/main.js");
 			<p id="logo">ProcessWire</p>
 
 			<ul id='topnav' class='nav'>
-				<?php 
-				foreach($page->rootParent->navChildren() as $p) {
-					if(!$p->viewable()) continue; 
-					if($p->process && !$user->hasPermission($p->process)) continue; 
-					$class = strpos($page->path, $p->path) === 0 ? " class='on'" : '';
-					echo "\n\t\t\t<li><a href='{$p->url}'$class>" . strip_tags($p->get('title|name')) . "</a></li>"; 
-				}
-				?>
+				<?php include($config->paths->templatesAdmin . "topnav.inc"); ?>
 
 			</ul>
 			<?php echo $searchForm; ?>
