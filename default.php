@@ -107,7 +107,7 @@ $config->scripts->append($config->urls->adminTemplates . "scripts/main.js");
 			<p>
 
 			<?php if(!$user->isGuest()): ?>
-			<span id='userinfo'><?php echo $user->name?>  <a class='action' href='<?php echo $config->urls->admin?>logout/'>logout</a></span>
+			<span id='userinfo'><?php echo $user->name?>  <a class='action' href='<?php echo $config->urls->admin; ?>login/logout/'>logout</a></span>
 			<?php endif; ?>
 
 			ProcessWire <?php echo $config->version; ?> &copy; <?php echo date("Y"); ?> by Ryan Cramer. Admin theme by Alasdair Monk. 
